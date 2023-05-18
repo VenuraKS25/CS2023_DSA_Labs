@@ -9,7 +9,7 @@ struct Node{
     
 
 };
-
+//
 struct Graph{
     //graph will have an array of type "node" with length specified by n
     int n=8;
