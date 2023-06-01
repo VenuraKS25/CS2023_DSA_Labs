@@ -67,7 +67,7 @@ struct HashTable{
         }
         else
         {
-            password[hash].print_list();
+            password[hash].search(user_name);
         }
     }
 };

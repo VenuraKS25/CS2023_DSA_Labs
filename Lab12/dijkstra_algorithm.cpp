@@ -46,7 +46,7 @@ void dijkstra(int graph[size][size], int source)
         totalTime += timeToCity[v];
     }
 
-    averageTime = (double)totalTime/size-1;
+    averageTime = (double)totalTime/(size-1);
     cout<<"Average Time to City "<<source<< " is "<< std::fixed << std::setprecision(1) << averageTime << endl;
     cout<<"\n\n\n";
 }
